@@ -9,6 +9,192 @@
     font-family: SDDystopian;
     src: url(./assets/fonts/Sddystopiandemo-GO7xa.otf);
 }
+img{
+    background-color: transparent;
+    border-radius: 5%;
+}
+*{
+    font-family: Montserrat, sans-serif;
+}
+
+/* top bar */
+.header {
+    background-color: 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    rgb(0, 213, 255);
+    display: flex;
+    width: 100%;
+    height: 80px;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+/* Main logo */
+.header > p {
+    position: fixed;
+    height: 50px;
+    top: 0px;
+    left: 30px;
+    z-index: 3
+}
+/* Title */
+.header > h1 {
+    position: fixed;
+    font-family: SDDystopian;
+    font-size: 100px;
+    left: 165px;
+    top: -50px;
+    z-index: 3;
+}
+
+.socials-menu{
+    display: flex;
+    flex-basis: auto;
+    justify-content: end;
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+}
+
+/* merch menu. */
+
+.merch-menu{
+    display: flex;
+    flex: 1 1 25%;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+    gap: 20px;
+}
+
+
+
+.sprites{
+    width: 210px;
+    display: inline-block;
+}
+/* Images zoom */
+.zoom-img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+  overflow: hidden;
+}
+
+.zoom-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all .3s ease;
+}
+
+.zoom-img img:hover {
+  transform: scale(1.2);
+}
+
+
 
 /* Phone Potrait */
 @media (min-width: 430px) and (max-width: 931px){
@@ -35,6 +221,8 @@
 @media (min-width: 932px) and (max-width: 1799px){
     /* header phone landscape*/
     .menu > h1 {
+        display: flex;
+
         position: relative;
         font-family: SDDystopian;
         font-size: 40px;
@@ -52,83 +240,4 @@
         width: 200px;
         display: inline;
     }
-}
-
-/* Desktop */
-@media (min-width: 1800px){
-    /* header */
-    .menu > div {
-        position: relative;
-        left: 90%;
-        word-spacing: 5px;
-        top: -65px;
-        z-index: 3;
-    }
-
-    .menu > h1 {
-        font-family: SDDystopian;
-        font-size: 100px;
-        position: relative;
-        top: -180px;
-        left: 160px;
-
-    }
-    .sprites{
-        width: 210px;
-        display: inline-block;
-    }
-
-}
-
-.menu {
-    width: 100%;
-    height: 80px;
-    background-color: #ff5e00;
-    position:fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 3;
-}
-
-/* Main logo */
-.menu > p {
-    position: relative;
-    height: 50px;
-    top: 0px;
-    left: 30px;
-}
-
-
-*{
-    font-family: Montserrat, sans-serif;
-}
-
-img{
-    background-color: transparent;
-    border-radius: 5%;
-}
-.menu_space{
-    top:100px;         
-}
-
-.center-text {
-    text-align: center;
-}
-
-/* Images zoom */
-.zoom-img {
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
-}
-
-.zoom-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: all .3s ease;
-}
-
-.zoom-img img:hover {
-  transform: scale(1.2);
 }
