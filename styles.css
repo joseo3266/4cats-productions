@@ -56,19 +56,18 @@ img{
     gap: 10px;
 }
 
-/* merch menu. */
-
 
 
 /* Container merchandise */
 .merch-container{
+    display: grid;
     height: 1000px;
     width: 800px;
-    display: grid;
     gap: 20px;
     padding: 20px;
 
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
 
 }
 
@@ -80,7 +79,7 @@ img{
 }
 /* Images zoom */
 .zoom-img {
-    width: 300px;
+    width: 800px;
     height: auto;
     padding: 10px;
   overflow:visible ;
@@ -95,6 +94,15 @@ img{
 
 .zoom-img img:hover {
   transform: scale(1.2);
+}
+
+/* Center text */
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
 }
 
 
@@ -116,6 +124,13 @@ img{
     .sprites{
         width: 200px;
         display: inline;
+    }
+
+    .center-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
     }
 
 }
