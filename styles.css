@@ -79,7 +79,7 @@ img{
 }
 /* Images zoom */
 .zoom-img {
-    width: 800px;
+    width: 500px;
     height: auto;
     padding: 10px;
   overflow:visible ;
@@ -132,6 +132,14 @@ img{
         flex-direction: column;
         height: 100%;
     }
+
+    .zoom-img {
+        
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    overflow:visible ;
+}
 
 }
 
