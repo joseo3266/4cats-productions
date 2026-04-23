@@ -126,11 +126,10 @@ img{
     justify-content: center;
     padding: 40px;
 }
-
-
-
+/*  */
+/*  */
 /* Phone Potrait */
-@media (min-width: 430px) and (max-width: 931px){
+@media (min-width: 390px) and (max-width: 931px){
     /* header phone*/
     h1{
         display: none;
@@ -166,7 +165,6 @@ img{
         display: flex;
         align-items: center;
         flex-direction: column;
-        background-color: blue;
         width: 100%;
     }
 
@@ -180,11 +178,10 @@ img{
 }
 
 /* Phone Landscape */
-@media (min-width: 932px) and (max-width: 1799px){
+@media (min-width: 844px) and (max-width: 1799px){
     /* header phone landscape*/
     .menu > h1 {
         display: flex;
-
         position: relative;
         font-family: SDDystopian;
         font-size: 40px;
